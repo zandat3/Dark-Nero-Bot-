@@ -14,14 +14,14 @@ global.location = 'Sri Lanka'
 global.gurl = 'https://instagram.com/' // add your username
 global.sudo = process.env.SUDO || '94774071805'
 global.devs = '94774071805';
-global.website = 'https://kaveeshasithum.netlify.app/' //wa.me/+91000000000000
+global.website = 'https://kaveeshasithum.netlify.app/' //wa.me/+254776436960
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.ibb.co/zrvByTb/IMG-20230609-WA0083.jpg'
 module.exports = {
   botname:   process.env.BOT_NAME === undefined ? 'DARK-NERO-MD 💗' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? 'CYBER-YAKUZA' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
   author:  process.env.PACK_INFO.split(";")[0] === undefined ? '💗🎵DARK NERO:CYBER-YAKUZA' : process.env.PACK_INFO.split(";")[0],
-  auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
+  auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? true : process.env.AUTO_READ_STATUS,
   packname:  process.env.PACK_INFO.split(";")[1] === undefined ? 'DARKNERO-MD' : process.env.PACK_INFO.split(";")[1],	
   dl_limit: process.env.DL_SIZE || '350',
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
@@ -44,9 +44,9 @@ module.exports = {
   OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? false : process.env.OPENAI_API_KEY,
   heroku:  process.env.heroku === undefined ? false : process.env.heroku,
   HEROKU: {
-    HEROKU: process.env.HEROKU ||false,
-    API_KEY: process.env.HEROKU_API_KEY === undefined ? '1abfce1e-1bee-4334-9f6c-f4c1cb1cafab' : process.env.HEROKU_API_KEY,
-    APP_NAME: process.env.HEROKU_APP_NAME === undefined ? 'zeropgg' : process.env.HEROKU_APP_NAME
+    HEROKU: process.env.HEROKU ||true,
+    API_KEY: process.env.HEROKU_API_KEY === undefined ? '7e6d020b-f889-49ff-833b-443cab0c0443' : process.env.HEROKU_API_KEY,
+    APP_NAME: process.env.HEROKU_APP_NAME === undefined ? 'darcm' : process.env.HEROKU_APP_NAME
 },
   VERSION: process.env.VERSION === undefined ? 'v.0.0.3' : process.env.VERSION,
   LANG: process.env.THEME|| 'Dark-Nero',
